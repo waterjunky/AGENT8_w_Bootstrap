@@ -106,14 +106,19 @@ ul {
 /* Subpage Button Styles */
 .card .btn-primary, .product-page .btn-primary {
   margin-top: .4rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   color: #FFFFFF;
   border: none;
   background-color: #03bffe;
   border-radius: 0;
   font-weight: 400;
   font-size: 1rem
+}
+
+@media only screen and (max-width: 500px) {
+    .card .btn-primary, .product-page .btn-primary {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+  }
 }
 
 /* Nav Styles */
