@@ -106,8 +106,8 @@ ul {
 /* Subpage Button Styles */
 .card .btn-primary, .product-page .btn-primary {
   margin-top: .4rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: #FFFFFF;
   border: none;
   background-color: #03bffe;
