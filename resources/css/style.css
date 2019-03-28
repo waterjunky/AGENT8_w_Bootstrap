@@ -118,6 +118,7 @@ ul {
     .card .btn-primary, .product-page .btn-primary {
       padding-top: 1rem;
       padding-bottom: 1rem;
+      font-size: 1.2rem
   }
 }
 
