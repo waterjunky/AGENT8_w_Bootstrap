@@ -71,6 +71,10 @@ ul {
   color: #03bffe;;
 }
 
+.breadcrumb-item {
+  padding-right: 0;
+}
+
 /* Breadcrumb divider style */
 .breadcrumb-item+.breadcrumb-item::before {
     color: DodgerBlue;
@@ -87,6 +91,11 @@ ul {
     font-size: .8rem;
     padding-top: 1rem;
   }
+}
+
+/* Font Awesome Styles */
+.fa-angle-right {
+  color: red;
 }
 
 /* Homepage Button Styles */
@@ -132,7 +141,7 @@ nav {
 }
 
 nav li {
-  padding-left: 2.5rem;
+  padding-right: 2rem;
 }
 
 nav a {
@@ -423,6 +432,28 @@ main {
     padding-top: .4rem;
     padding-bottom: .4rem;
   }
+}
+
+/* Info Page Styles */
+.info-page {
+  padding: 3rem 8rem 12rem 8rem;
+}
+
+.contact-page {
+  padding: 3rem 8rem 18rem 8rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .info-page {
+    padding: 2rem 2rem 6rem 2rem;
+  }
+  .contact-page {
+    padding: 3rem 8rem 10rem 8rem;
+  }
+}
+
+.features li {
+  padding-bottom: .4rem;
 }
 
 /* Footer Section */
