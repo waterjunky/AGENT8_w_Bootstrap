@@ -175,7 +175,7 @@ main {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: bottom;
-  background-color: #f0f0f0;
+  background-color: #3c3c3c;
   text-align: left;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -186,10 +186,19 @@ main {
   width: 30rem;
   text-align: center;
   display: inline-block;
+  color: #ffffff;
 }
 
 .featured p, .gopro-feature p {
   font-size: 1.125rem;
+}
+
+.first-btn {
+  margin-right: .25rem;
+}
+
+.second-btn {
+  margin-left: .25rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -197,9 +206,14 @@ main {
     width: 100%;
     display: block;
   }
+
+  .featured p, .featured h2, .featured a {
+    text-shadow: 1px 1px 1px #3c3c3c;
+  }
   /* switch to transparent image; improves text readability */
   .jumbotron {
-    background-image: url('../images/banner_agent8_straws_2.png');
+    background-image: url('../images/banner_agent8_straws_3.png');
+    background-size: 140%;
   }
 }
 @media only screen and (max-width: 590px) {
